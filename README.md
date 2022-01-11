@@ -22,10 +22,15 @@
 ``` 
 Should create a post and return the newly created post in the response.
 **Validate user_id, title, description, author_name. Validation criteria:**
-    a. user_id must be a valid user's ID
-    b. each user can have maximum 2 posts assigned to his profile
-    b. title must be a string and minimum of 10 characters excluding spaces
-    c. description must be a string and minimum of 50 characters excluding spaces
-    d. author_name must be a string and should not accept any special characters
 
-3. `[GET] http://localhost/users` is an existing end point that is used in front-end to show list of all users with their post count. Optimize the API to achieve minimum execution time and smallest load on server. You can introduce additional parameters in the request to restrict and control your result set.
+> a. user_id must be a valid user's ID
+
+> b. each user can have maximum 2 posts assigned to his profile
+
+> b. title must be a string and minimum of 10 characters excluding spaces
+
+>c. description must be a string and minimum of 50 characters excluding spaces
+
+>d. author_name must be a string and should not accept any special characters
+
+3. `[GET] http://localhost/users` is an existing end point that is used in front-end to show list of all users with their post count. Optimize the end point to achieve minimum execution time and smallest load on server. You can introduce additional parameters in the request to restrict and control your result set.
